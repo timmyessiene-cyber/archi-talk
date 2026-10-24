@@ -53,18 +53,18 @@ gsap.to(".why", {
   }
 });
 
-gsap.to(".sponsors", {
-  x: -100,
-  duration: 3,
-  repeat: -1,
-  // z-index
-  scrollTrigger: {
-    trigger: ".section_7",
-    scroller: "body",
-    start: "top 0%",
-    end: "top 100%"
-  }
-})
+// gsap.to(".sponsors", {
+//   x: -100,
+//   duration: 3,
+//   repeat: -1,
+//   // z-index
+//   scrollTrigger: {
+//     trigger: ".section_7",
+//     scroller: "body",
+//     start: "top 0%",
+//     end: "top 100%"
+//   }
+// })
 
 // gsap.to(".section_6", {
 //   overflowY: "scroll",
