@@ -73,6 +73,11 @@ header hr {
   height: fit-content;
 }
 
+.nav_parent a {
+  color: var(--white-text);
+  text-decoration: none;
+}
+
 .nav_parent:hover {
   cursor: pointer;
 }
@@ -392,6 +397,12 @@ select:focus {
   border-radius: 10px;
   overflow: hidden;
 }
+
+/* ._img1 {
+  object-fit: cover;
+  object-position: center;
+  height: 100%;
+} */
 
 ._img1 {
   background-image: url(./Media/50\ countries.jpg);
@@ -850,6 +861,10 @@ footer>:nth-child(1) {
     height: 400px;
   }
 
+  .history_sections {
+    gap: 50px;
+  }
+
   .history_sections>div {
     flex-direction: column;
     gap: 20px;
@@ -860,7 +875,8 @@ footer>:nth-child(1) {
   ._img3,
   ._img4,
   .program_img {
-    background-position-x: center;
+    /* background-position-x: center; */
+    background-position-x: -100px;
   }
 
   .section_7 {
@@ -882,9 +898,27 @@ footer>:nth-child(1) {
     gap: 50px;
   }
 
+  .socials {
+    justify-content: flex-start;
+  }
+
   .contact {
     text-align: left;
   }
+}
+
+@media(max-width: 600px) {
+
+  ._img1,
+  ._img2,
+  ._img3,
+  ._img4 {
+    height: 400px;
+  }
+
+  /* .program_img {
+    height: 400px;
+  } */
 }
 
 @media(max-width: 500px) {
@@ -894,6 +928,17 @@ footer>:nth-child(1) {
 
   .fade {
     height: fit-content;
+  }
+
+  ._img1,
+  ._img2,
+  ._img3,
+  ._img4 {
+    height: 300px;
+  }
+
+  .program_img {
+    height: 400px;
   }
 }
 
