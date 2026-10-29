@@ -2,7 +2,7 @@ const registers = document.querySelectorAll(".main_cta");
 
 registers.forEach((register) => {
   register.addEventListener("click", () => {
-    window.location.href = "https://forms.gle/G6dzam9py6nRbCWBA"
+    window.location.href = "https://docs.google.com/forms/d/e/1FAIpQLSeDY37uGTu8sJSwa-ot4bQx62i3u1aNTdlBqt6AMvDuAvIh9A/viewform"
   })
 })
 
